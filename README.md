@@ -4,8 +4,8 @@
 
 ## endpoint
 
-/ - views all the items
-add/ - creates an item
-<int:pk> - views an item by index
-<int:pk>/update - Edits an item
-<int:pk>/delete - Deletes an item
+- / - views all the items
+- add/ - creates an item
+- <int:pk> - views an item by index
+- <int:pk>/update - Edits an item
+- <int:pk>/delete - Deletes an item
