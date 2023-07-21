@@ -16,8 +16,8 @@ To add an item:
   }
 ```
 
-- <int:pk> - views an item by index e.g. [gracious-butterfly-85177.pktriot.net/1/](https://gracious-butterfly-85177.pktriot.net/1/) for item one
-- <int:pk>/update - Edits an item e.g.[gracious-butterfly-85177.pktriot.net/1/update](https://gracious-butterfly-85177.pktriot.net/1/update) to update item one
+- <int:pk> - to view an item by index e.g. [gracious-butterfly-85177.pktriot.net/1/](https://gracious-butterfly-85177.pktriot.net/1/) 
+- <int:pk>/update - Edits an item e.g. [gracious-butterfly-85177.pktriot.net/1/update](https://gracious-butterfly-85177.pktriot.net/1/update) 
 
 ```json
   {
@@ -25,4 +25,4 @@ To add an item:
   }
 ```
 
-- <int:pk>/delete - Deletes an item e.g.[gracious-butterfly-85177.pktriot.net/1/update](https://gracious-butterfly-85177.pktriot.net/1/delete) to delete an item.
+- <int:pk>/delete - Deletes an item e.g. [gracious-butterfly-85177.pktriot.net/1/update](https://gracious-butterfly-85177.pktriot.net/1/delete)
