@@ -89,9 +89,14 @@ from decouple import config
 ```
 Then you change `SECRET_KEY` and `DEBUG` to this:
 
-```
+```py
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG')
+```
+
+```
+SECRET_KEY=<SECRET_KEY>
+DEBUG=<True or False>
 ```
 
 ## Notice
