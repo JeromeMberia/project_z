@@ -69,7 +69,7 @@ py manage.py runserver
 ## On security 
 I would usually add `.env` file on the root directory of the project and place the DEBUG and SECRET_KEY in it.
 
-###If you would like to implement do this:
+### If you would like to implement do this:
 
 In your terminal `cd` to the project
 ```powershell
