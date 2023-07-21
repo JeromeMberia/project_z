@@ -26,3 +26,42 @@ For more directions [link](https://github.com/JeromeMberia/project_z/blob/main/D
 ```
 
 - <int:pk>/delete - Deletes an item e.g. [gracious-butterfly-85177.pktriot.net/1/update](https://gracious-butterfly-85177.pktriot.net/1/delete)
+
+## To Run it 
+
+```powershell
+git clone https://github.com/JeromeMberia/project_z.git
+```
+
+```powershell
+cd project_z
+```
+
+```powershell
+py -m venv venv
+```
+
+```powershell
+.\venv\Scripts\activate
+```
+
+```powershell
+pip install -r requirements.txt
+```
+
+```powershell
+cd .\myproject\
+```
+
+```powershell
+py manage.py makemigrations
+```
+
+```powershell
+py manage.py py migrate
+```
+
+```powershell
+py manage.py runserver
+```
+
