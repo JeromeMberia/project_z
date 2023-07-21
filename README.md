@@ -93,6 +93,11 @@ Then you change `SECRET_KEY` and `DEBUG` to this:
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG')
 ```
+create the `.env` file
+```
+New-Item -Path ".env"
+```
+type on the `.env` file this
 
 ```
 SECRET_KEY=<SECRET_KEY>
