@@ -9,7 +9,7 @@
 To add an item:
 ```json
   {
-  "name": "Item <the number",
+  "name": "Item <the number>",
   }
 ```   
 - <int:pk> - views an item by index
