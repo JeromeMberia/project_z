@@ -29,6 +29,8 @@ For more directions [link](https://github.com/JeromeMberia/project_z/blob/main/D
 
 ## To Run it 
 
+Enter your terminal and type:
+
 ```powershell
 git clone https://github.com/JeromeMberia/project_z.git
 ```
@@ -64,4 +66,34 @@ py manage.py py migrate
 ```powershell
 py manage.py runserver
 ```
+## On security 
+I would usually add `.env` file on the root directory of the project and place the DEBUG and SECRET_KEY in it.
+
+###If you would like to implement do this:
+
+In your terminal `cd` to the project
+```powershell
+pip install python-decouple
+```
+
+To save the library in `requirements.txt` file
+```powershell
+python -m pip freeze > requirements.txt
+```
+
+Enter the `setting.py` file found in `.\myproject\myproject\setting.py`
+At the top of the file near `from pathlib import Path` this line of code, under it add this:
+
+```py
+from decouple import config
+```
+Then you change `SECRET_KEY` and `DEBUG` to this:
+
+```
+SECRET_KEY = config('SECRET_KEY')
+DEBUG = config('DEBUG')
+```
+
+## Notice
+This repository will be private on the 28th of July 2023. 
 
