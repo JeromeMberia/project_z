@@ -83,26 +83,26 @@ python -m pip freeze > requirements.txt
 
 Enter the `setting.py` file found in `.\myproject\myproject\setting.py`
 At the top of the file near `from pathlib import Path` this line of code, under it add this:
-
-```py
-from decouple import config
-```
-Then you change `SECRET_KEY` and `DEBUG` to this:
-
-```py
-SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG')
-```
+    
+>    ```py
+>    from decouple import config
+>    ```
+>    Then you change `SECRET_KEY` and `DEBUG` to this:
+>    
+>    ```py
+>    SECRET_KEY = config('SECRET_KEY')
+>    DEBUG = config('DEBUG')
+>    ```
 create the `.env` file
-```
-New-Item -Path ".env"
-```
-type on the `.env` file this
-
-```
-SECRET_KEY=<SECRET_KEY>
-DEBUG=<True or False>
-```
+>```
+>New-Item -Path ".env"
+>```
+> Type on the `.env` file this
+>
+>```
+>SECRET_KEY=<SECRET_KEY>
+>DEBUG=<True or False>
+>```
 
 ## Notice
 This repository will be private on the 28th of July 2023. 
