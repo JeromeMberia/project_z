@@ -16,8 +16,8 @@ To add an item:
   }
 ```
 
-- <int:pk> - to view an item by index e.g. [gracious-butterfly-85177.pktriot.net/1/](https://gracious-butterfly-85177.pktriot.net/1/) 
-- <int:pk>/update - Edits an item e.g. [gracious-butterfly-85177.pktriot.net/1/update](https://gracious-butterfly-85177.pktriot.net/1/update) 
+- <int:pk> - to view an item by index e.g. [gracious-butterfly-85177.pktriot.net/1/](https://gracious-butterfly-85177.pktriot.net/1/)
+- <int:pk>/update - Edits an item e.g. [gracious-butterfly-85177.pktriot.net/1/update](https://gracious-butterfly-85177.pktriot.net/1/update)
 
 ```json
   {
