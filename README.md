@@ -15,7 +15,7 @@ To add an item:
   "name": "Item <the number>",
   }
 ```
-
+for more direction [link](https://github.com/JeromeMberia/project_z/blob/main/Directions.pdf)
 - <int:pk> - to view an item by index e.g. [gracious-butterfly-85177.pktriot.net/1/](https://gracious-butterfly-85177.pktriot.net/1/)
 - <int:pk>/update - Edits an item e.g. [gracious-butterfly-85177.pktriot.net/1/update](https://gracious-butterfly-85177.pktriot.net/1/update)
 
